@@ -3,7 +3,7 @@ function changeText() {
 }
 
 function shorten(query, redirect) {
-  if (window.location.href === "https://url.grandswager.repl.co/?"+query) {
+  if (window.location.href === "https://grandswager.github.io/url/?"+query) {
     changeText();
     window.location.replace(redirect);
   }
